@@ -43,7 +43,7 @@ RL algorithms in the agricultural setting that is easy to use and customize.
 Recommended Installation Method:
 
 1. Navigate to desired installation directory
-2. git clone https://github.com/wsolow/agaid_crop_simulator.git
+2. git clone git@github.com:Intelligent-Reliable-Autonomous-Systems/WOFOST-Gym.git
 3. conda create -n cropsim python=3.10.9
 4. conda activate cropsim
 5. pip install -r requirements.txt
@@ -57,8 +57,9 @@ needed to run all scripts in the agaid_crop_simulator package
 * How to run the program
 
 After following the above installation instructions: 
-1. Navigate to the base directory ../agaid_crop_simulator/
+1. Navigate to the base directory ../wofost-gym/
 2. Run the testing domain with: python3 test_wofost.py 
+3. This may take a few seconds initially to configure the weather directory
 
 When this runs successfully, to train an RL agent:
 1. Run: python3 train_agent.py --agent-type <str: PPO | SAC | DQN>
@@ -70,7 +71,7 @@ When this runs successfully, to train an RL agent:
 Initial configuration for the Gym Environment parameters (Note: NOT the actual crop simulation) 
 can be modified in the utils.py file. 
 
-This filename should show the path to the ../agaid_crop_simulator/
+This filename should show the path to the ../wofost-gym/
 directory. From there, the env_config/ folder can be found with the corresponding
 agromanagement, crop, and site parameters. For further information, please see the 
 following READMEs:
@@ -103,9 +104,9 @@ Email soloww@oregonstate.edu with any further questions
 
 ## Authors
 
-Will Solow (soloww@oregonstate.edu)
+Will Solow (soloww@oregonstate.edu) - principle developer
 
-Dr. Sandhya Saisubramanian (sandhya.sai@oregonstate.edu)
+Dr. Sandhya Saisubramanian (sandhya.sai@oregonstate.edu) - project lead
 
 ## Version History
 

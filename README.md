@@ -1,7 +1,10 @@
 # WOFOST-Gym
 
+DISCLAIMER: This repository is still actively under development. Please email 
+Will Solow (soloww@oregonstate.edu) with case-use questions and bug reports. 
+
 This is the AgAid Crop Simulator for the joint [AgAid](https://agaid.org/) Project between Oregon State 
-University (OSU) and Washington State University (WSU).
+University (OSU) and Washington State University (WSU). 
 
 ## Description
 

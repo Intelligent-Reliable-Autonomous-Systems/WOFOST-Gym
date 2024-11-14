@@ -1,0 +1,6 @@
+[submodule "pcse"]
+	path = pcse
+	url = git@github.com:wsolow/pcse.git
+[submodule "pcse_gym"]
+	path = pcse_gym
+	url = git@github.com:wsolow/pcse_gym.git
